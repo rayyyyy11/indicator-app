@@ -1,0 +1,15 @@
+{
+  "crypto": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "SOL/USDT"
+  ],
+  "stocks": [
+    "AAPL",
+    "TSLA",
+    "NVDA",
+    "SPY",
+    "MSTR",
+    "CRCL"
+  ]
+}
