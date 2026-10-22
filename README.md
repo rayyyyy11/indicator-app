@@ -18,16 +18,18 @@ Mac 桌面应用：实时技术分析 + 关键点位 + 相关新闻。
 ## 运行
 
 ```bash
-cd ~/Documents/indicator-app
-/Users/ray/quant_env/bin/pip install -r requirements.txt
-/Users/ray/quant_env/bin/python3 run.py
+git clone https://github.com/rayyyyy11/indicator-app.git
+cd indicator-app
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python run.py
 ```
 
 启用 AI 分析（可选）：
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
-/Users/ray/quant_env/bin/python3 run.py
+.venv/bin/python run.py
 ```
 
 ## 操作
